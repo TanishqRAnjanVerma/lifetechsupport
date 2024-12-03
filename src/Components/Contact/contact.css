@@ -1,0 +1,200 @@
+.contact .contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.contact .contact-section .contact-sec1 {
+  padding: 50px;
+  width: 50%;
+  color: #0C2C65;
+  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16), -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.contact .contact-section .contact-sec1 h3 {
+  font-size: 1.75rem;
+}
+
+.contact .contact-section .contact-sec1 p {
+  font-size: 0.85rem;
+}
+
+.contact .contact-section .contact-sec1 .contact-sec1 h6 {
+  font-size: 0.85rem;
+}
+
+.contact .contact-section .contact-sec2 {
+  display: grid;
+  justify-content: center;
+  width: 50%;
+}
+
+.contact .contact-section .contact-sec2 .form-group {
+  margin: 15px;
+}
+
+.contact .contact-section .contact-sec2 .form-group #name,
+.contact .contact-section .contact-sec2 .form-group #message {
+  padding: 8px;
+  border-radius: 8px;
+  width: 180%;
+  border: 1px solid #0C2C65;
+  resize: none;
+}
+
+.contact .contact-section .contact-sec2 .form-group #submit {
+  padding: 8px;
+  margin: 8px;
+  width: 65%;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  background: #0C2C65;
+}
+
+.contact .map {
+  display: flex;
+  margin: 60px;
+}
+
+.contact .map .map-1 {
+  width: 50%;
+  color: #0C2C65;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact .map .map-1 h1 {
+  font-size: 4rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .contact .contact-section {
+    display: grid;
+  }
+  .contact .contact-section .contact-sec1 {
+    width: 100%;
+  }
+  .contact .contact-section .contact-sec2 {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .contact .contact-section .contact-sec2 .form-group {
+    margin: 15px;
+  }
+  .contact .contact-section .contact-sec2 .form-group #name,
+  .contact .contact-section .contact-sec2 .form-group #message {
+    width: 100%;
+  }
+  .contact .contact-section .contact-sec2 .form-group #submit {
+    margin: 0px;
+    width: 100%;
+  }
+  .contact .map {
+    display: grid;
+  }
+  .contact .map iframe {
+    width: 100%;
+  }
+  .contact .map .map-1 {
+    width: 100%;
+    color: #0C2C65;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact .map .map-1 .l-header {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .contact .contact-section {
+    display: grid;
+  }
+  .contact .contact-section .contact-sec1 {
+    width: 100%;
+  }
+  .contact .contact-section .contact-sec2 {
+    justify-content: normal;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .contact .contact-section .contact-sec2 .form-group {
+    margin: 15px;
+  }
+  .contact .contact-section .contact-sec2 .form-group #name,
+  .contact .contact-section .contact-sec2 .form-group #message {
+    width: 100%;
+  }
+  .contact .contact-section .contact-sec2 .form-group #submit {
+    margin: 0px;
+    width: 100%;
+  }
+  .contact .map {
+    display: grid;
+  }
+  .contact .map iframe {
+    width: 100%;
+  }
+  .contact .map .map-1 {
+    width: 100%;
+    color: #0C2C65;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact .map .map-1 .l-header {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .contact .contact-section {
+    display: grid;
+  }
+  .contact .contact-section .contact-sec1 {
+    width: 100%;
+  }
+  .contact .contact-section .contact-sec2 {
+    justify-content: normal;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .contact .contact-section .contact-sec2 .form-group {
+    margin: 15px;
+  }
+  .contact .contact-section .contact-sec2 .form-group #name,
+  .contact .contact-section .contact-sec2 .form-group #message {
+    width: 100%;
+  }
+  .contact .contact-section .contact-sec2 .form-group #submit {
+    margin: 0px;
+    width: 100%;
+  }
+  .contact .map {
+    display: grid;
+  }
+  .contact .map iframe {
+    width: 100%;
+  }
+  .contact .map .map-1 {
+    width: 100%;
+    color: #0C2C65;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact .map .map-1 .l-header {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+}

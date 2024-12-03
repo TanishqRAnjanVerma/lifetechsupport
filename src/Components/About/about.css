@@ -1,0 +1,129 @@
+.about .about-section-1 {
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 40px 62px 40px 62px;
+  height: 400px;
+}
+
+.about .about-section-1 .carousel {
+  height: 400px;
+}
+
+.about .about-section-1 .carousel .carousel-inner .carousel-item .d-block {
+  border-radius: 20px;
+}
+
+.about .about-section-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .about-section-2 .about-sec-1 {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  padding: 0px 60px 0px 60px;
+  width: 50%;
+  color: #0C2C65;
+}
+
+.about .about-section-2 .about-sec-1 .vision {
+  height: 400px;
+  width: 400px;
+}
+
+.about .about-section-2 .about-sec-1 p {
+  font-size: 14px;
+}
+
+.about .about-section-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .about-section-3 .about-sec-2 {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  padding: 0px 60px 0px 60px;
+  width: 50%;
+  color: #0C2C65;
+}
+
+.about .about-section-3 .about-sec-2 .mission {
+  height: 400px;
+  width: 400px;
+}
+
+.about .about-section-3 .about-sec-2 p {
+  font-size: 14px;
+}
+
+.about .about-section-4 {
+  padding: 0px 60px 0px 60px;
+  color: #0C2C65;
+}
+
+.about .about-section-4 h4 {
+  font-size: 2rem;
+}
+
+.about .about-section-4 p {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 576px) {
+  .about .about-section-1 {
+    border-radius: 0px;
+    margin: 0px;
+    height: auto;
+  }
+  .about .about-section-1 .carousel {
+    height: auto;
+  }
+  .about .about-section-1 .carousel .carousel-inner .carousel-item .d-block {
+    border-radius: 0px;
+  }
+  .about .about-section-2 {
+    display: grid;
+  }
+  .about .about-section-2 .about-sec-1 {
+    display: grid;
+    width: 100%;
+  }
+  .about .about-section-3 {
+    display: grid;
+  }
+  .about .about-section-3 .about-sec-2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .about .about-section-1 {
+    border-radius: 0px;
+    margin: 0px;
+    height: auto;
+  }
+  .about .about-section-1 .carousel {
+    height: auto;
+  }
+  .about .about-section-1 .carousel .carousel-inner .carousel-item .d-block {
+    border-radius: 0px;
+  }
+  .about .about-section-2 {
+    display: grid;
+  }
+  .about .about-section-2 .about-sec-1 {
+    display: grid;
+    width: 100%;
+  }
+  .about .about-section-3 {
+    display: grid;
+  }
+  .about .about-section-3 .about-sec-2 {
+    width: 100%;
+  }
+}

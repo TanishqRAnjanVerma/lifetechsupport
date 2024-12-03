@@ -1,0 +1,111 @@
+.navbar {
+
+    position: relative;
+    padding: 0px;
+    border-bottom: 1px solid rgb(223, 219, 219);
+
+    .container-fluid {
+        background: white;
+        padding: 5px;
+
+
+        .navbar-brand {
+            margin: 0 0 0 50px;
+            padding: 0px;
+
+            .bio-logo {
+                height: 60px;
+                width: 120px;
+            }
+        }
+
+        .collapse {
+            .navbar-nav {
+
+                margin: 0 0 0 300px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .nav-item {
+                    position: relative;
+                    margin: 10px;
+
+                    .nav-link {
+                        font-size: 16px;
+                        color: #0C2C65;
+                    }
+
+                    .dropdown-menu {
+                        .dropdown-item {
+                            font-size: 14px;
+
+                            &:hover {
+
+                                background: #0C2C65;
+                                color: white;
+                            }
+                        }
+                    }
+
+
+
+                }
+
+            }
+        }
+
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        position: relative;
+
+        .container-fluid {
+            .navbar-brand {
+                margin: 0 0 0 10px;
+            }
+
+            .collapse {
+                .navbar-nav {
+                    display: grid;
+                    margin: 0px 0px 0px 10px;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    .nav-item {
+                        margin: 10px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .navbar {
+        position: relative;
+
+        .container-fluid {
+            .navbar-brand {
+                margin: 0 0 0 30px;
+            }
+
+            .collapse {
+                .navbar-nav {
+                    display: grid;
+                    margin: 0px 0px 0px 30px;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    .nav-item {
+                        margin: 10px;
+                    }
+                }
+            }
+
+        }
+    }
+}
