@@ -93,11 +93,19 @@
     display: grid;
     width: 100%;
   }
+  .about .about-section-2 .about-sec-1 .vision {
+    height: 340px;
+    width: 340px;
+  }
   .about .about-section-3 {
     display: grid;
   }
   .about .about-section-3 .about-sec-2 {
     width: 100%;
+  }
+  .about .about-section-3 .about-sec-2 .mission {
+    height: 340px;
+    width: 340px;
   }
 }
 

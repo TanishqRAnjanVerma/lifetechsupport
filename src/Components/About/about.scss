@@ -107,6 +107,11 @@
             .about-sec-1 {
                 display: grid;
                 width: 100%;
+
+                .vision {
+                    height: 340px;
+                    width: 340px;
+                }
             }
         }
 
@@ -115,6 +120,11 @@
 
             .about-sec-2 {
                 width: 100%;
+
+                .mission {
+                    height: 340px;
+                    width: 340px;
+                }
             }
         }
     }
